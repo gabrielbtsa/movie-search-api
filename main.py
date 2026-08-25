@@ -9,8 +9,6 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 url = f'https://api.watchmode.com/v1/autocomplete-search'
 
-print(api_key)
-
 
 params = {
 
