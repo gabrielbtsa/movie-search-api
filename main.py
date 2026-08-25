@@ -39,7 +39,6 @@ for indice, filme in enumerate(filmes):
 
 escolha = int(input("Digite o número do filme correspondente:"))
 
-#print("Seu filme escolhido é:", filmes[escolha]["name"])
 
 title_id = filmes[escolha]["id"]
 url2 = f'https://api.watchmode.com/v1/title/{title_id}/details'
